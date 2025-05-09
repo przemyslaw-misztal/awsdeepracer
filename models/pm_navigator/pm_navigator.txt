@@ -1,0 +1,30 @@
+https://github.com/SDC-Lab/DeepRacer-Models/blob/main/models/README.md/#model-3-navigator
+
+Hyperparameter Selection and Time
+
+Hyperparameter and time	Initial	Clone 1	Clone 2	Clone 3	Clone 4	Clone 5	Clone 6	Clone 7
+Gradient descent batch size	64	64	64	64	64	64	128	64
+Entropy	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01
+Discount factor	0.999	0.999	0.999	0.999	0.999	0.999	0.999	0.999
+Learning rate	0.0003	0.0003	0.0003	0.0003	0.0003	0.0003	0.0001	0.0003
+Number of experience episodes between each policy-updating iteration	20	20	20	20	20	20	20	20
+Number of epochs	10	10	10	10	10	10	10	10
+Time (mins)	90	90	90	90	90	90	90	90
+Discrete Action Space
+
+Action Number	Steering	Speed
+0	-30	1.4
+1	-30	1.5
+2	-30	1.8
+3	-15	1.4
+4	-15	1.5
+5	-15	1.8
+6	0	1.4
+7	0	1.5
+8	0	1.8
+9	15	1.5
+10	15	1.6
+11	15	1.8
+12	30	1.5
+13	30	1.6
+14	30	1.8
