@@ -1,0 +1,19 @@
+Reward Function
+I did some trial and errors on the paramenters, and found out that the three main parameters that give the best results.
+
+The I_Want_to_Break_Free.py reward function prioritizes staying on the track, following the correct direction, and being close to the center of the track. The function calculates the track direction based on the closest waypoints, and compares it to the heading of the car. If the direction difference is greater than 10 degrees, the reward is halved. Otherwise, the reward is set to 1.0. Additionally, the reward is increased by the distance from the center of the track, with a maximum value of 1.0 when the car is perfectly centered on the track.
+
+Hyperparameters
+The hyperparameters used for this DeepRacer setup are:
+
+{
+    "batch_size": 64,
+    "beta_entropy": 0.01,
+    "discount_factor": 0.888,
+    "loss_type": "huber",
+    "lr": 0.0003,
+    "num_episodes_between_training": 18,
+    "num_epochs": 4
+}
+
+The minimum and maximum speeds for the car are set to 1.1 and 2.0, respectively. Additionally, the car is given an angle control of -30 to 30 degrees.
