@@ -1,0 +1,22 @@
+Actions space: discrete
+Tensorflow
+PPO
+
+gradient 64
+entropy 0.01
+discount factor 0.985
+loss type Huber
+learning rate 0.0004
+number of episodes 32
+number of epochs 3
+
+no | steering angle
+0 | 0.0 | fast
+1 | 5.0
+2 | -5.0
+3 | 15.0
+4 | -15.0
+5 | 30.0
+6 | -30.0 | slow
+
+https://www.youtube.com/watch?v=keMMa7FCyZ4
