@@ -1,0 +1,60 @@
+Race type - Time trial
+Environment simulation - A to Z Speedway - Clockwise
+Action space type - Discrete
+Action space
+No. | Steering angle (°) | Speed (m/s)
+0 | -30.0 | 1.40
+1
+-30.0
+2.40
+2
+-30.0
+3.00
+3
+-15.0
+1.40
+4
+-15.0
+2.40
+5
+-15.0
+3.00
+6
+0.0
+1.40
+7
+0.0
+2.40
+8
+0.0
+3.00
+9
+15.0
+1.50
+10
+15.0
+2.40
+11
+15.0
+3.00
+12
+30.0
+1.50
+13
+30.0
+2.40
+14
+30.0
+3.00
+
+Framework - Tensorflow
+Reinforcement learning algorithm - PPO
+
+Hyperparameter | Value
+Gradient descent batch size - 64
+Entropy - 0.01
+Discount factor - 0.99
+Loss type - Huber
+Learning rate - 0.0001
+Number of experience episodes between each policy-updating iteration - 20
+Number of epochs - 10
