@@ -1,4 +1,4 @@
-er
+
 | Model Name                     | Qualifying Time | Best Lap Time |
 |--------------------------------|-----------------|---------------|
 | pm-wroc-fighter-v3-450m-3ms-90m | 00:09.350      | 00:09.127     |

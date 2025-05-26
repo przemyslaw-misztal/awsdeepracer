@@ -1,0 +1,24 @@
+[] Train pm-wroc-fighter-v3-450m-3ms-90m on counterclockwise and test
+[] Train pm-strongqualifier-v2-180m-clone-slower-90m
+
+[] Explore the continous action space and reward function with three components
+
+speed [2.2; 3.5] m/s
+steering -30; 30
+
+ppo
+Tensorflow
+
+64
+0.01
+0.985
+Huber
+0.0004
+32
+3
+
+f(x) = car heading bonus
+g(x) = distance from center or raceline bonus (need to be continouos)
+h(x) = speed bonus
+
+reward = reward_func(f(x), g(x), h(x))
