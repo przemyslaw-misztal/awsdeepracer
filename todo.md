@@ -1,8 +1,6 @@
 [x] Train pm-wroc-fighter-v3-450m-3ms-90m on counterclockwise and test
-[] Train pm-strongqualifier-v2-180m-clone-slower-90m
 [] Training log analysis - pm-wroc-fighter-v3-450m-3ms-90m
-[] Training log analysis - pm-strongqualifier-v2-180m-clone-slower-90m
-
+[] Train pm-wroc-fighter-v4-90m (changed rewrd function weights to increase impact of speed and steering, less action space parameters on edges and slower as well)
 [] Explore the continous action space and reward function with three components
 
 speed [2.2; 3.5] m/s
