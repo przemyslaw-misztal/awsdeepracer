@@ -1,4 +1,4 @@
-[] Train pm-wroc-fighter-v3-450m-3ms-90m on counterclockwise and test
+[x] Train pm-wroc-fighter-v3-450m-3ms-90m on counterclockwise and test
 [] Train pm-strongqualifier-v2-180m-clone-slower-90m
 [] Training log analysis - pm-wroc-fighter-v3-450m-3ms-90m
 [] Training log analysis - pm-strongqualifier-v2-180m-clone-slower-90m
