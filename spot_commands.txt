@@ -1,0 +1,16 @@
+Awsdeepracer1983
+
+193.28.84.6
+
+export AWS_DEFAULT_REGION=sa-east-1
+
+# credentials
+option 1
+
+[x] create-base-resources.sh pm-aws-dr-stack1 193.28.84.6 
+
+./add-interruption-notification-subscription.sh pm-aws-dr-stack1  pm-interruption-aws-dr-stack1 oldiedio@gmail.com
+
+./add-access.sh pm-aws-dr-stack1 pm-aws-dr-add-access-stack1 193.28.84.6
+
+./create-spot-instance.sh pm-aws-dr-stack1 pmwrocfighterv3newaction 90
