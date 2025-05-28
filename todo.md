@@ -1,6 +1,8 @@
 [x] Train pm-wroc-fighter-v3-450m-3ms-90m on counterclockwise and test
 [] Training log analysis - pm-wroc-fighter-v3-450m-3ms-90m
 [x] Train pm-wroc-fighter-v4-90m (changed rewrd function weights to increase impact of speed and steering, less action space parameters on edges and slower as well)
+[x] try with this action space - https://github.com/FranklineMisango/ATLienHK_AWS_DeepRacer/blob/main/reward/reward_qualifier.py
+[] Train the most successful model for 300 minutes on the spot
 [] Train the pm-wroc-fighter-v4 for 500 minutes on the spot
 [] Train the pm-wroc-fighter-v3 with adjusted hyperparameters for 500 minutes on the spot
 [] Train the pm-wroc-fighter-v3 original for 500 minutes on the spot
@@ -8,7 +10,7 @@
 
 [] ideas to test
     [] discourage >15
-    [] try with this action space - https://github.com/FranklineMisango/ATLienHK_AWS_DeepRacer/blob/main/reward/reward_qualifier.py
+    
 
 [] https://github.com/Arian-Abdi/DeepRacer-Reward-function/blob/main/Final%20Function.py
 [] https://github.com/AlboBoy23/AWS-DeepRacer-Reward-Function/blob/main/reward.py

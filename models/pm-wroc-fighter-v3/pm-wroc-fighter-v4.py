@@ -2,9 +2,9 @@ import math
 def reward_function(params):
 
     # Reward weights
-    speed_weight = 105
+    speed_weight = 100
     heading_weight = 100
-    steering_weight = 55
+    steering_weight = 50
 
     # Initialise the reward based on current speed
     max_speed_reward = 10 * 10
