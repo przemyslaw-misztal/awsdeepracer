@@ -1,0 +1,48 @@
+-----------------------------------
+DR_LOCAL_S3_MODEL_PREFIX=training/$DR_WORLD_NAME/ppmwrocfighterv3newaction202505301215
+2025-05-30_10:28:38_UTC
+Best checkpoint number: -1, Last checkpoint number: -1
+Checkpoint> Saving in path=['./checkpoint_sagemaker/agent/0_Step-0.ckpt']
+=====Robomaker (main Worker)=====
+=====Sagemaker policy training=====
+=====GPU performance=====
+| N/A   31C    P0             25W /   70W |     885MiB /  15360MiB |      0%      Default |
+=====Storage Availability=====
+Filesystem      1K-blocks     Used Available Use% Mounted on
+/dev/root        40458684 28302192  12140108  70% /
+tmpfs            16242076        0  16242076   0% /dev/shm
+tmpfs             6496832     1572   6495260   1% /run
+tmpfs                5120        0      5120   0% /run/lock
+efivarfs              128        5       119   4% /sys/firmware/efi/efivars
+/dev/nvme0n1p15    106832     6190    100642   6% /boot/efi
+tmpfs             3248412        4   3248408   1% /run/user/1000
+=====Docker containers status=====
+CONTAINER ID   IMAGE                                              COMMAND                  CREATED              STATUS                        PORTS                                                          NAMES
+30c73fc5b214   nginx                                              "/docker-entrypoint.…"   About a minute ago   Up About a minute             0.0.0.0:8100->80/tcp, :::8100->80/tcp                          deepracer-0-viewer-proxy-1
+e1131225de95   awsdeepracercommunity/deepracer-simapp:5.3.3-gpu   "/bin/bash -c train"     About a minute ago   Up About a minute                                                                            tjuxy6k7wn-algo-1-e3xra
+3ceeeb131f07   awsdeepracercommunity/deepracer-simapp:5.3.3-gpu   "/bin/bash -c 'pytho…"   About a minute ago   Up About a minute                                                                            deepracer-0-rl_coach-1
+d37b2bb2a355   awsdeepracercommunity/deepracer-simapp:5.3.3-gpu   "/bin/bash -c '/opt/…"   About a minute ago   Exited (143) 11 seconds ago                                                                  deepracer-0-robomaker-2
+6d4796c56e3a   awsdeepracercommunity/deepracer-simapp:5.3.3-gpu   "/bin/bash -c '/opt/…"   About a minute ago   Exited (143) 10 seconds ago                                                                  deepracer-0-robomaker-1
+5933a54e3588   awsdeepracercommunity/deepracer-analysis:cpu       "/bin/sh -c 'jupyter…"   5 minutes ago        Up 5 minutes                  0.0.0.0:8888->8888/tcp, :::8888->8888/tcp                      deepracer-analysis
+ba34d45b2feb   telegraf:1.18-alpine                               "/entrypoint.sh tele…"   5 minutes ago        Up 5 minutes                  127.0.0.1:8092->8092/udp, 127.0.0.1:8125->8125/udp, 8094/tcp   deepracer-metrics-telegraf-1
+bd3d692c8369   grafana/grafana:10.4.2                             "/run.sh"                5 minutes ago        Up 5 minutes                  0.0.0.0:3000->3000/tcp, :::3000->3000/tcp                      deepracer-metrics-grafana-1
+ecf629ad820f   influxdb:1.8-alpine                                "/entrypoint.sh infl…"   5 minutes ago        Up 5 minutes                  127.0.0.1:8886->8086/tcp                                       deepracer-metrics-influxdb-1
+=====CPU average load (1min / 5min / 15min avg)=====
+1.93 2.20 1.18 2/547 97247
+=====Memory usage=====
+MemTotal:       32484152 kB
+MemFree:        26598756 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+=====Robomaker Testing result logs (all Workers)=====
+=====Sagemaker training logs=====
+=====Robomaker Top 10 completed laps (all Workers)=====
+Number of completed laps: 0
+=====Robomaker (main Worker) - OutputLog: =====
+"docker logs" requires exactly 1 argument.
+See 'docker logs --help'.
+
+Usage:  docker logs [OPTIONS] CONTAINER
+
+Fetch the logs of a container
+###################

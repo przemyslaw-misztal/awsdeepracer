@@ -1,5 +1,8 @@
 Awsdeepracer1983
 
+##### Initial configuration
+
+https://whatismyipaddress.com
 193.28.84.6
 
 export AWS_DEFAULT_REGION=sa-east-1
@@ -13,4 +16,20 @@ option 1
 
 ./add-access.sh pm-aws-dr-stack1 pm-aws-dr-add-access-stack1 193.28.84.6
 
-./create-spot-instance.sh pm-aws-dr-stack1 pmwrocfighterv3newaction 90
+./create-spot-instance.sh pm-aws-dr-stack1 ppmwrocfighterv3newaction202505301215 15
+
+##### Run instance
+
+export AWS_DEFAULT_REGION=sa-east-1
+
+# credentials, pick option 1
+
+./create-spot-instance.sh pm-aws-dr-stack1 ppmwrocfighterv3newaction202505301215 15
+
+
+# download logs
+
+aws s3 sync s3://mybucket .
+aws s3 cp s3://yourbucketname ./pmlogs --recursive
+
+aws s3 cp s3://pm-aws-dr-stack1-bucket-movvkyvcllxi/training/reInvent2019_wide_cw.npy/ ./pmlogs --recursive

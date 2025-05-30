@@ -1,0 +1,394 @@
+2025-05-30 06:27:16,459 sagemaker-training-toolkit INFO     Failed to parse hyperparameter s3_bucket value pm-aws-dr-stack1-bucket-movvkyvcllxi to Json.
+Returning the value itself
+2025-05-30 06:27:16,459 sagemaker-training-toolkit INFO     Failed to parse hyperparameter s3_prefix value training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215 to Json.
+Returning the value itself
+2025-05-30 06:27:16,460 sagemaker-training-toolkit INFO     Failed to parse hyperparameter aws_region value sa-east-1 to Json.
+Returning the value itself
+2025-05-30 06:27:16,460 sagemaker-training-toolkit INFO     Failed to parse hyperparameter model_metadata_s3_key value s3://pm-aws-dr-stack1-bucket-movvkyvcllxi/custom_files/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model_metadata.json to Json.
+Returning the value itself
+2025-05-30 06:27:16,460 sagemaker-training-toolkit INFO     Failed to parse hyperparameter exploration_type value categorical to Json.
+Returning the value itself
+2025-05-30 06:27:16,460 sagemaker-training-toolkit INFO     Failed to parse hyperparameter loss_type value huber to Json.
+Returning the value itself
+2025-05-30 06:27:16,462 sagemaker-training-toolkit INFO     No Neurons detected (normal if no neurons installed)
+2025-05-30 06:27:16,471 sagemaker-training-toolkit INFO     instance_groups entry not present in resource_config
+2025-05-30 06:27:16,530 sagemaker-training-toolkit INFO     Failed to parse hyperparameter s3_bucket value pm-aws-dr-stack1-bucket-movvkyvcllxi to Json.
+Returning the value itself
+2025-05-30 06:27:16,531 sagemaker-training-toolkit INFO     Failed to parse hyperparameter s3_prefix value training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215 to Json.
+Returning the value itself
+2025-05-30 06:27:16,531 sagemaker-training-toolkit INFO     Failed to parse hyperparameter aws_region value sa-east-1 to Json.
+Returning the value itself
+2025-05-30 06:27:16,531 sagemaker-training-toolkit INFO     Failed to parse hyperparameter model_metadata_s3_key value s3://pm-aws-dr-stack1-bucket-movvkyvcllxi/custom_files/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model_metadata.json to Json.
+Returning the value itself
+2025-05-30 06:27:16,531 sagemaker-training-toolkit INFO     Failed to parse hyperparameter exploration_type value categorical to Json.
+Returning the value itself
+2025-05-30 06:27:16,531 sagemaker-training-toolkit INFO     Failed to parse hyperparameter loss_type value huber to Json.
+Returning the value itself
+2025-05-30 06:27:16,537 sagemaker-training-toolkit INFO     No Neurons detected (normal if no neurons installed)
+2025-05-30 06:27:16,558 sagemaker-training-toolkit INFO     instance_groups entry not present in resource_config
+2025-05-30 06:27:16,611 sagemaker-training-toolkit INFO     Failed to parse hyperparameter s3_bucket value pm-aws-dr-stack1-bucket-movvkyvcllxi to Json.
+Returning the value itself
+2025-05-30 06:27:16,612 sagemaker-training-toolkit INFO     Failed to parse hyperparameter s3_prefix value training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215 to Json.
+Returning the value itself
+2025-05-30 06:27:16,612 sagemaker-training-toolkit INFO     Failed to parse hyperparameter aws_region value sa-east-1 to Json.
+Returning the value itself
+2025-05-30 06:27:16,612 sagemaker-training-toolkit INFO     Failed to parse hyperparameter model_metadata_s3_key value s3://pm-aws-dr-stack1-bucket-movvkyvcllxi/custom_files/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model_metadata.json to Json.
+Returning the value itself
+2025-05-30 06:27:16,612 sagemaker-training-toolkit INFO     Failed to parse hyperparameter exploration_type value categorical to Json.
+Returning the value itself
+2025-05-30 06:27:16,612 sagemaker-training-toolkit INFO     Failed to parse hyperparameter loss_type value huber to Json.
+Returning the value itself
+2025-05-30 06:27:16,617 sagemaker-training-toolkit INFO     No Neurons detected (normal if no neurons installed)
+2025-05-30 06:27:16,638 sagemaker-training-toolkit INFO     instance_groups entry not present in resource_config
+2025-05-30 06:27:16,651 sagemaker-training-toolkit INFO     Invoking user script
+
+Training Env:
+
+{
+    "additional_framework_parameters": {},
+    "channel_input_dirs": {},
+    "current_host": "algo-1-e3xra",
+    "current_instance_group": "homogeneousCluster",
+    "current_instance_group_hosts": [],
+    "current_instance_type": "local",
+    "distribution_hosts": [
+        "algo-1-e3xra"
+    ],
+    "distribution_instance_groups": [],
+    "framework_module": null,
+    "hosts": [
+        "algo-1-e3xra"
+    ],
+    "hyperparameters": {
+        "s3_bucket": "pm-aws-dr-stack1-bucket-movvkyvcllxi",
+        "s3_prefix": "training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215",
+        "aws_region": "sa-east-1",
+        "model_metadata_s3_key": "s3://pm-aws-dr-stack1-bucket-movvkyvcllxi/custom_files/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model_metadata.json",
+        "batch_size": 64,
+        "beta_entropy": 0.01,
+        "discount_factor": 0.99,
+        "e_greedy_value": 0.05,
+        "epsilon_steps": 10000,
+        "exploration_type": "categorical",
+        "loss_type": "huber",
+        "lr": 0.0001,
+        "num_episodes_between_training": 20,
+        "num_epochs": 10
+    },
+    "input_config_dir": "/opt/ml/input/config",
+    "input_data_config": {},
+    "input_dir": "/opt/ml/input",
+    "instance_groups": [],
+    "instance_groups_dict": {},
+    "is_hetero": false,
+    "is_master": true,
+    "is_modelparallel_enabled": null,
+    "is_smddpmprun_installed": false,
+    "is_smddprun_installed": false,
+    "job_name": "training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215",
+    "log_level": 20,
+    "master_hostname": "algo-1-e3xra",
+    "model_dir": "/opt/ml/model",
+    "module_dir": "/opt/ml/code",
+    "module_name": "start.sh",
+    "network_interface_name": "eth0",
+    "num_cpus": 8,
+    "num_gpus": 1,
+    "num_neurons": 0,
+    "output_data_dir": "/opt/ml/output/data",
+    "output_dir": "/opt/ml/output",
+    "output_intermediate_dir": "/opt/ml/output/intermediate",
+    "resource_config": {
+        "current_host": "algo-1-e3xra",
+        "hosts": [
+            "algo-1-e3xra"
+        ]
+    },
+    "user_entry_point": "start.sh"
+}
+
+Environment variables:
+
+SM_HOSTS=["algo-1-e3xra"]
+SM_NETWORK_INTERFACE_NAME=eth0
+SM_HPS={"aws_region":"sa-east-1","batch_size":64,"beta_entropy":0.01,"discount_factor":0.99,"e_greedy_value":0.05,"epsilon_steps":10000,"exploration_type":"categorical","loss_type":"huber","lr":0.0001,"model_metadata_s3_key":"s3://pm-aws-dr-stack1-bucket-movvkyvcllxi/custom_files/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model_metadata.json","num_episodes_between_training":20,"num_epochs":10,"s3_bucket":"pm-aws-dr-stack1-bucket-movvkyvcllxi","s3_prefix":"training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215"}
+SM_USER_ENTRY_POINT=start.sh
+SM_FRAMEWORK_PARAMS={}
+SM_RESOURCE_CONFIG={"current_host":"algo-1-e3xra","hosts":["algo-1-e3xra"]}
+SM_INPUT_DATA_CONFIG={}
+SM_OUTPUT_DATA_DIR=/opt/ml/output/data
+SM_CHANNELS=[]
+SM_CURRENT_HOST=algo-1-e3xra
+SM_CURRENT_INSTANCE_TYPE=local
+SM_CURRENT_INSTANCE_GROUP=homogeneousCluster
+SM_CURRENT_INSTANCE_GROUP_HOSTS=[]
+SM_INSTANCE_GROUPS=[]
+SM_INSTANCE_GROUPS_DICT={}
+SM_DISTRIBUTION_INSTANCE_GROUPS=[]
+SM_IS_HETERO=false
+SM_MODULE_NAME=start.sh
+SM_LOG_LEVEL=20
+SM_FRAMEWORK_MODULE=
+SM_INPUT_DIR=/opt/ml/input
+SM_INPUT_CONFIG_DIR=/opt/ml/input/config
+SM_OUTPUT_DIR=/opt/ml/output
+SM_NUM_CPUS=8
+SM_NUM_GPUS=1
+SM_NUM_NEURONS=0
+SM_MODEL_DIR=/opt/ml/model
+SM_MODULE_DIR=/opt/ml/code
+SM_TRAINING_ENV={"additional_framework_parameters":{},"channel_input_dirs":{},"current_host":"algo-1-e3xra","current_instance_group":"homogeneousCluster","current_instance_group_hosts":[],"current_instance_type":"local","distribution_hosts":["algo-1-e3xra"],"distribution_instance_groups":[],"framework_module":null,"hosts":["algo-1-e3xra"],"hyperparameters":{"aws_region":"sa-east-1","batch_size":64,"beta_entropy":0.01,"discount_factor":0.99,"e_greedy_value":0.05,"epsilon_steps":10000,"exploration_type":"categorical","loss_type":"huber","lr":0.0001,"model_metadata_s3_key":"s3://pm-aws-dr-stack1-bucket-movvkyvcllxi/custom_files/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model_metadata.json","num_episodes_between_training":20,"num_epochs":10,"s3_bucket":"pm-aws-dr-stack1-bucket-movvkyvcllxi","s3_prefix":"training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215"},"input_config_dir":"/opt/ml/input/config","input_data_config":{},"input_dir":"/opt/ml/input","instance_groups":[],"instance_groups_dict":{},"is_hetero":false,"is_master":true,"is_modelparallel_enabled":null,"is_smddpmprun_installed":false,"is_smddprun_installed":false,"job_name":"training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215","log_level":20,"master_hostname":"algo-1-e3xra","model_dir":"/opt/ml/model","module_dir":"/opt/ml/code","module_name":"start.sh","network_interface_name":"eth0","num_cpus":8,"num_gpus":1,"num_neurons":0,"output_data_dir":"/opt/ml/output/data","output_dir":"/opt/ml/output","output_intermediate_dir":"/opt/ml/output/intermediate","resource_config":{"current_host":"algo-1-e3xra","hosts":["algo-1-e3xra"]},"user_entry_point":"start.sh"}
+SM_USER_ARGS=["--aws_region","sa-east-1","--batch_size","64","--beta_entropy","0.01","--discount_factor","0.99","--e_greedy_value","0.05","--epsilon_steps","10000","--exploration_type","categorical","--loss_type","huber","--lr","0.0001","--model_metadata_s3_key","s3://pm-aws-dr-stack1-bucket-movvkyvcllxi/custom_files/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model_metadata.json","--num_episodes_between_training","20","--num_epochs","10","--s3_bucket","pm-aws-dr-stack1-bucket-movvkyvcllxi","--s3_prefix","training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215"]
+SM_OUTPUT_INTERMEDIATE_DIR=/opt/ml/output/intermediate
+SM_HP_S3_BUCKET=pm-aws-dr-stack1-bucket-movvkyvcllxi
+SM_HP_S3_PREFIX=training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215
+SM_HP_AWS_REGION=sa-east-1
+SM_HP_MODEL_METADATA_S3_KEY=s3://pm-aws-dr-stack1-bucket-movvkyvcllxi/custom_files/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model_metadata.json
+SM_HP_BATCH_SIZE=64
+SM_HP_BETA_ENTROPY=0.01
+SM_HP_DISCOUNT_FACTOR=0.99
+SM_HP_E_GREEDY_VALUE=0.05
+SM_HP_EPSILON_STEPS=10000
+SM_HP_EXPLORATION_TYPE=categorical
+SM_HP_LOSS_TYPE=huber
+SM_HP_LR=0.0001
+SM_HP_NUM_EPISODES_BETWEEN_TRAINING=20
+SM_HP_NUM_EPOCHS=10
+PYTHONPATH=/opt/ml/code:/usr/local/bin:/usr/lib/python38.zip:/usr/lib/python3.8:/usr/lib/python3.8/lib-dynload:/usr/local/lib/python3.8/dist-packages:/usr/lib/python3/dist-packages
+
+Invoking script with the following command:
+
+/bin/sh -c "./start.sh --aws_region sa-east-1 --batch_size 64 --beta_entropy 0.01 --discount_factor 0.99 --e_greedy_value 0.05 --epsilon_steps 10000 --exploration_type categorical --loss_type huber --lr 0.0001 --model_metadata_s3_key s3://pm-aws-dr-stack1-bucket-movvkyvcllxi/custom_files/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model_metadata.json --num_episodes_between_training 20 --num_epochs 10 --s3_bucket pm-aws-dr-stack1-bucket-movvkyvcllxi --s3_prefix training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215"
+
+
+2025-05-30 06:27:16,652 sagemaker-training-toolkit INFO     Exceptions not imported for SageMaker Debugger as it is not installed.
+2025-05-30 06:27:17.253705: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-05-30 06:27:17.345424: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-05-30 06:27:18.816464: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Passed Environment Variables:
+SM_NUM_NEURONS=0
+NV_LIBCUBLAS_VERSION=11.11.3.6-1
+NVIDIA_VISIBLE_DEVICES=all
+SAGEMAKER_JOB_NAME=
+SM_CHANNELS=[]
+SM_FRAMEWORK_MODULE=
+NV_CUDNN_PACKAGE_NAME=libcudnn8
+PYTHONUNBUFFERED=1
+COLCON_CURRENT_PREFIX=/opt/simapp
+TELEGRAF_HOST=telegraf
+SM_HOSTS=["algo-1-e3xra"]
+HOSTNAME=e1131225de95
+S3_ENDPOINT_URL=https://s3.sa-east-1.amazonaws.com
+SM_MODULE_NAME=start.sh
+NVIDIA_REQUIRE_CUDA=cuda>=11.8 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471
+NV_NVTX_VERSION=11.8.86-1
+SM_INSTANCE_GROUPS_DICT={}
+SM_HP_EPSILON_STEPS=10000
+NV_LIBCUSPARSE_VERSION=11.7.5.86-1
+NV_LIBNPP_VERSION=11.8.0.86-1
+NCCL_VERSION=2.16.2-1
+SM_HP_BETA_ENTROPY=0.01
+AWS_REGION=sa-east-1
+PWD=/opt/ml/code
+SM_HP_E_GREEDY_VALUE=0.05
+NV_CUDNN_PACKAGE=libcudnn8=8.9.6.50-1+cuda11.8
+NVIDIA_DRIVER_CAPABILITIES=compute,utility
+NV_LIBNPP_PACKAGE=libnpp-11-8=11.8.0.86-1
+TZ=America/New_York
+SM_HP_EXPLORATION_TYPE=categorical
+NVIDIA_PRODUCT_NAME=CUDA
+SM_USER_ENTRY_POINT=start.sh
+NV_CUDA_CUDART_VERSION=11.8.89-1
+HOME=/root
+LANG=C.UTF-8
+SM_OUTPUT_DIR=/opt/ml/output
+SM_OUTPUT_INTERMEDIATE_DIR=/opt/ml/output/intermediate
+SM_IS_HETERO=false
+SM_CURRENT_INSTANCE_TYPE=local
+CUDA_VERSION=11.8.0
+NV_LIBCUBLAS_PACKAGE=libcublas-11-8=11.11.3.6-1
+SM_NUM_CPUS=8
+SM_INPUT_CONFIG_DIR=/opt/ml/input/config
+SM_HP_BATCH_SIZE=64
+SM_OUTPUT_DATA_DIR=/opt/ml/output/data
+SM_CURRENT_HOST=algo-1-e3xra
+NV_LIBCUBLAS_PACKAGE_NAME=libcublas-11-8
+SM_INSTANCE_GROUPS=[]
+SM_INPUT_DATA_CONFIG={}
+SM_NUM_GPUS=1
+CUDA_VISIBLE_DEVICES=0
+SM_INPUT_DIR=/opt/ml/input
+SM_RESOURCE_CONFIG={"current_host":"algo-1-e3xra","hosts":["algo-1-e3xra"]}
+COLCON_PYTHON_EXECUTABLE=/usr/bin/python3
+SM_NETWORK_INTERFACE_NAME=eth0
+SM_HP_LOSS_TYPE=huber
+PYTHONPATH=/opt/simapp/sagemaker_rl_agent/lib/python3.8/site-packages/:/opt/ml/code:/usr/local/bin:/usr/lib/python38.zip:/usr/lib/python3.8:/usr/lib/python3.8/lib-dynload:/usr/local/lib/python3.8/dist-packages:/usr/lib/python3/dist-packages
+TERM=xterm
+SM_HP_MODEL_METADATA_S3_KEY=s3://pm-aws-dr-stack1-bucket-movvkyvcllxi/custom_files/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model_metadata.json
+SM_LOG_LEVEL=20
+SM_DISTRIBUTION_INSTANCE_GROUPS=[]
+DEBCONF_NONINTERACTIVE_SEEN=true
+SM_TRAINING_ENV={"additional_framework_parameters":{},"channel_input_dirs":{},"current_host":"algo-1-e3xra","current_instance_group":"homogeneousCluster","current_instance_group_hosts":[],"current_instance_type":"local","distribution_hosts":["algo-1-e3xra"],"distribution_instance_groups":[],"framework_module":null,"hosts":["algo-1-e3xra"],"hyperparameters":{"aws_region":"sa-east-1","batch_size":64,"beta_entropy":0.01,"discount_factor":0.99,"e_greedy_value":0.05,"epsilon_steps":10000,"exploration_type":"categorical","loss_type":"huber","lr":0.0001,"model_metadata_s3_key":"s3://pm-aws-dr-stack1-bucket-movvkyvcllxi/custom_files/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model_metadata.json","num_episodes_between_training":20,"num_epochs":10,"s3_bucket":"pm-aws-dr-stack1-bucket-movvkyvcllxi","s3_prefix":"training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215"},"input_config_dir":"/opt/ml/input/config","input_data_config":{},"input_dir":"/opt/ml/input","instance_groups":[],"instance_groups_dict":{},"is_hetero":false,"is_master":true,"is_modelparallel_enabled":null,"is_smddpmprun_installed":false,"is_smddprun_installed":false,"job_name":"training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215","log_level":20,"master_hostname":"algo-1-e3xra","model_dir":"/opt/ml/model","module_dir":"/opt/ml/code","module_name":"start.sh","network_interface_name":"eth0","num_cpus":8,"num_gpus":1,"num_neurons":0,"output_data_dir":"/opt/ml/output/data","output_dir":"/opt/ml/output","output_intermediate_dir":"/opt/ml/output/intermediate","resource_config":{"current_host":"algo-1-e3xra","hosts":["algo-1-e3xra"]},"user_entry_point":"start.sh"}
+NV_CUDNN_VERSION=8.9.6.50
+SM_CURRENT_INSTANCE_GROUP=homogeneousCluster
+PYTHONIOENCODING=UTF-8
+TPU_ML_PLATFORM=Tensorflow
+SM_HP_NUM_EPISODES_BETWEEN_TRAINING=20
+SHLVL=1
+SAGEMAKER_REGION=
+NV_CUDA_LIB_VERSION=11.8.0-1
+NVARCH=x86_64
+PYTHONDONTWRITEBYTECODE=1
+SM_HP_AWS_REGION=sa-east-1
+NV_CUDA_COMPAT_PACKAGE=cuda-compat-11-8
+SM_CURRENT_INSTANCE_GROUP_HOSTS=[]
+NV_LIBNCCL_PACKAGE=libnccl2=2.16.2-1+cuda11.8
+LD_LIBRARY_PATH=/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+SM_HP_S3_PREFIX=training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215
+SM_FRAMEWORK_PARAMS={}
+SM_MODULE_DIR=/opt/ml/code
+TELEGRAF_PORT=8092
+TRAINING_JOB_NAME=training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215
+CURRENT_HOST=algo-1-e3xra
+LC_ALL=C.UTF-8
+_CATKIN_SETUP_DIR=/opt/ros/noetic
+SAGEMAKER_PROGRAM=start.sh
+SM_HP_DISCOUNT_FACTOR=0.99
+SM_HP_LR=0.0001
+PATH=/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+TF2_BEHAVIOR=1
+SM_HP_S3_BUCKET=pm-aws-dr-stack1-bucket-movvkyvcllxi
+SM_USER_ARGS=["--aws_region","sa-east-1","--batch_size","64","--beta_entropy","0.01","--discount_factor","0.99","--e_greedy_value","0.05","--epsilon_steps","10000","--exploration_type","categorical","--loss_type","huber","--lr","0.0001","--model_metadata_s3_key","s3://pm-aws-dr-stack1-bucket-movvkyvcllxi/custom_files/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model_metadata.json","--num_episodes_between_training","20","--num_epochs","10","--s3_bucket","pm-aws-dr-stack1-bucket-movvkyvcllxi","--s3_prefix","training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215"]
+NV_LIBNCCL_PACKAGE_NAME=libnccl2
+RUN_ID=0
+NV_LIBNCCL_PACKAGE_VERSION=2.16.2-1
+SM_HPS={"aws_region":"sa-east-1","batch_size":64,"beta_entropy":0.01,"discount_factor":0.99,"e_greedy_value":0.05,"epsilon_steps":10000,"exploration_type":"categorical","loss_type":"huber","lr":0.0001,"model_metadata_s3_key":"s3://pm-aws-dr-stack1-bucket-movvkyvcllxi/custom_files/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model_metadata.json","num_episodes_between_training":20,"num_epochs":10,"s3_bucket":"pm-aws-dr-stack1-bucket-movvkyvcllxi","s3_prefix":"training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215"}
+SM_HP_NUM_EPOCHS=10
+DEBIAN_FRONTEND=noninteractive
+ROS_DISTRO=noetic
+MAX_MEMORY_STEPS=10000
+SM_MODEL_DIR=/opt/ml/model
+_=/usr/bin/env
+
+54:C 30 May 2025 06:27:20.654 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+54:C 30 May 2025 06:27:20.655 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=54, just started
+54:C 30 May 2025 06:27:20.655 # Configuration loaded
+54:M 30 May 2025 06:27:20.657 * monotonic clock: POSIX clock_gettime
+54:M 30 May 2025 06:27:20.657 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list.
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.2.7 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                  
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 54
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           https://redis.io       
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+54:M 30 May 2025 06:27:20.658 # Server initialized
+54:M 30 May 2025 06:27:20.658 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+54:M 30 May 2025 06:27:20.658 * Ready to accept connections
+Telegraf client connecting to telegraf:8092
+2025-05-30 06:27:27.926691: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-05-30 06:27:27.985132: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-05-30 06:27:28.912745: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Training Worker Args: Namespace(aws_region='sa-east-1', checkpoint_dir='./checkpoint_sagemaker', environment_s3_key=None, framework='tensorflow', model_metadata_s3_key='s3://pm-aws-dr-stack1-bucket-movvkyvcllxi/custom_files/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model_metadata.json', preset_s3_key=None, pretrained_checkpoint='best', pretrained_checkpoint_dir='./pretrained_checkpoint_sagemaker', pretrained_s3_bucket=None, pretrained_s3_prefix='sagemaker', s3_bucket='pm-aws-dr-stack1-bucket-movvkyvcllxi', s3_endpoint_url='https://s3.sa-east-1.amazonaws.com', s3_prefix='training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215')
+S3 bucket: pm-aws-dr-stack1-bucket-movvkyvcllxi 
+ S3 prefix: training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215 
+ S3 endpoint URL: https://s3.sa-east-1.amazonaws.com
+[s3] Successfully downloaded model metadata                  from s3 key custom_files/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model_metadata.json to local ./custom_files/agent/model_metadata.json.
+Sensor list ['FRONT_FACING_CAMERA'], network DEEP_CONVOLUTIONAL_NETWORK_SHALLOW, simapp_version 5.0, training_algorithm clipped_ppo, action_space_type discrete lidar_config {'num_sectors': 8, 'num_values_per_sector': 8, 'clipping_dist': 2.0}
+Action space from file: [{'steering_angle': -30.0, 'speed': 1.4}, {'steering_angle': -30.0, 'speed': 2.4}, {'steering_angle': -30.0, 'speed': 3.0}, {'steering_angle': -15.0, 'speed': 1.5}, {'steering_angle': -15.0, 'speed': 2.4}, {'steering_angle': -15.0, 'speed': 3.0}, {'steering_angle': 0.0, 'speed': 1.4}, {'steering_angle': 0.0, 'speed': 2.4}, {'steering_angle': 0.0, 'speed': 3.0}, {'steering_angle': 15.0, 'speed': 1.4}, {'steering_angle': 15.0, 'speed': 2.4}, {'steering_angle': 15.0, 'speed': 3.0}, {'steering_angle': 30.0, 'speed': 1.4}, {'steering_angle': 30.0, 'speed': 2.4}, {'steering_angle': 30.0, 'speed': 3.0}]
+Using the following hyper-parameters
+{
+  "batch_size": 64,
+  "beta_entropy": 0.01,
+  "discount_factor": 0.99,
+  "e_greedy_value": 0.05,
+  "epsilon_steps": 10000,
+  "exploration_type": "categorical",
+  "loss_type": "huber",
+  "lr": 0.0001,
+  "num_episodes_between_training": 20,
+  "num_epochs": 10,
+  "stack_size": 1,
+  "term_cond_avg_score": 100000.0,
+  "term_cond_max_episodes": 100000
+}
+[s3] Successfully uploaded hyperparameters to                  s3 bucket pm-aws-dr-stack1-bucket-movvkyvcllxi with s3 key training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/ip/hyperparameters.json.
+Hostname: e1131225de95
+[s3] Successfully uploaded ip address to                  s3 bucket pm-aws-dr-stack1-bucket-movvkyvcllxi with s3 key training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/ip/ip.json.
+[s3] Successfully uploaded ip done to                  s3 bucket pm-aws-dr-stack1-bucket-movvkyvcllxi with s3 key training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/ip/done.
+## Creating graph - name: MultiAgentGraphManager
+## Start physics before creating graph
+## Create graph
+## Creating agent - name: agent
+[RL] Created agent loggers
+[RL] Dynamic import of memory:  "DeepRacerMemoryParameters" {
+    "load_memory_from_file_path": null,
+    "max_size": [
+        "<MemoryGranularity.Transitions: 0>",
+        1000000
+    ],
+    "n_step": -1,
+    "shared_memory": false,
+    "train_to_eval_ratio": 1
+}
+
+[RL] Dynamically imported of memory <markov.memories.deepracer_memory.DeepRacerMemory object at 0x79dd07b9caf0>
+[RL] Setting devices
+[RL] Setting filters
+[RL] Setting filter devices: numpy
+[RL] Setting Phase
+[RL] After setting Phase
+[RL] Setting signals
+[RL] Agent init successful
+[RL] ActorCriticAgent init
+[RL] ActorCriticAgent  init successful
+## Created agent: agent
+/usr/local/lib/python3.8/dist-packages/rl_coach/architectures/tensorflow_components/layers.py:119: UserWarning: `tf.layers.conv2d` is deprecated and will be removed in a future version. Please Use `tf.keras.layers.Conv2D` instead.
+  return tf.compat.v1.layers.conv2d(input_layer, filters=self.num_filters, kernel_size=self.kernel_size,
+/usr/local/lib/python3.8/dist-packages/rl_coach/architectures/tensorflow_components/layers.py:181: UserWarning: `tf.layers.dense` is deprecated and will be removed in a future version. Please use `tf.keras.layers.Dense` instead.
+  return tf.compat.v1.layers.dense(input_layer, self.units, name=name, kernel_initializer=kernel_initializer,
+/usr/local/lib/python3.8/dist-packages/rl_coach/architectures/tensorflow_components/layers.py:181: UserWarning: `tf.layers.dense` is deprecated and will be removed in a future version. Please use `tf.keras.layers.Dense` instead.
+  return tf.compat.v1.layers.dense(input_layer, self.units, name=name, kernel_initializer=kernel_initializer,
+/usr/local/lib/python3.8/dist-packages/rl_coach/architectures/tensorflow_components/layers.py:119: UserWarning: `tf.layers.conv2d` is deprecated and will be removed in a future version. Please Use `tf.keras.layers.Conv2D` instead.
+  return tf.compat.v1.layers.conv2d(input_layer, filters=self.num_filters, kernel_size=self.kernel_size,
+## Stop physics after creating graph
+## Creating session
+2025-05-30 06:27:33.159414: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-05-30 06:27:33.198418: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-05-30 06:27:33.201523: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-05-30 06:27:33.407540: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-05-30 06:27:33.409772: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-05-30 06:27:33.411800: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-05-30 06:27:33.413644: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1639] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13343 MB memory:  -> device: 0, name: Tesla T4, pci bus id: 0000:00:1e.0, compute capability: 7.5
+2025-05-30 06:27:33.442619: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:375] MLIR V1 optimization pass is not enabled
+Checkpoint> Saving in path=['./checkpoint_sagemaker/agent/0_Step-0.ckpt']
+[s3] Successfully uploaded .lock to                      s3 bucket pm-aws-dr-stack1-bucket-movvkyvcllxi with s3 key training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model/.lock.
+Uploaded 3 files for checkpoint 0
+[s3] Successfully uploaded coach checkpoint to                   s3 bucket pm-aws-dr-stack1-bucket-movvkyvcllxi with s3 key training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model/.coach_checkpoint.
+Unable to find deepracer checkpoint json
+Unable to find the best deepracer checkpoint number. Getting the last checkpoint number
+Unable to find deepracer checkpoint json
+Unable to find the last deepracer checkpoint number.
+Unable to find deepracer checkpoint json
+Unable to find the last deepracer checkpoint number.
+saved intermediate frozen graph: training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model/model_0.pb
+Best checkpoint number: -1, Last checkpoint number: -1
+Copying the frozen checkpoint from ./frozen_models/agent/model_0.pb to /opt/ml/model/agent/model.pb.
+Unable to find deepracer checkpoint json
+Capping iteration steps at: 10000
+[s3] Successfully uploaded .lock to                      s3 bucket pm-aws-dr-stack1-bucket-movvkyvcllxi with s3 key training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model/.lock.
+[s3] Successfully uploaded .ready to                      s3 bucket pm-aws-dr-stack1-bucket-movvkyvcllxi with s3 key training/reInvent2019_wide_cw.npy/ppmwrocfighterv3newaction202505301215/model/.ready.
+DoorMan: installing SIGINT, SIGTERM
