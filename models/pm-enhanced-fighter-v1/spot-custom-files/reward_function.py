@@ -1,9 +1,5 @@
 def reward_function(params):
-    """
-    Enhanced reward function optimized for the re:Invent 2018 counterclockwise track.
-    Encourages high-speed driving on straights, smooth left turns, and controlled
-    steering, while penalizing unnecessary corrections and zigzagging.
-    """
+
     # Read input parameters
     track_width = params['track_width']
     distance_from_center = params['distance_from_center']

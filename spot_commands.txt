@@ -1,4 +1,5 @@
 Awsdeepracer1983
+https://github.com/aws-deepracer-community/deepracer-on-the-spot
 
 ##### Initial configuration
 
@@ -24,7 +25,7 @@ export AWS_DEFAULT_REGION=sa-east-1
 
 # credentials, pick option 1
 
-./create-spot-instance.sh pm-aws-dr-stack1 ppmwrocfighterv3newaction202505301215 15
+./create-spot-instance.sh pm-aws-dr-stack1 pm-enhanced-fighter-v1-202505311859 300
 
 
 # download logs
@@ -32,4 +33,4 @@ export AWS_DEFAULT_REGION=sa-east-1
 aws s3 sync s3://mybucket .
 aws s3 cp s3://yourbucketname ./pmlogs --recursive
 
-aws s3 cp s3://pm-aws-dr-stack1-bucket-movvkyvcllxi/training/reInvent2019_wide_cw.npy/ ./pmlogs --recursive
+aws s3 cp s3://pm-aws-dr-stack1-bucket-movvkyvcllxi/training/reInvent2019_wide_cw/ ./pmlogs --recursive
