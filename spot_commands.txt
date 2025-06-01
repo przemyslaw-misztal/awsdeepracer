@@ -25,7 +25,7 @@ export AWS_DEFAULT_REGION=sa-east-1
 
 # credentials, pick option 1
 
-./create-spot-instance.sh pm-aws-dr-stack1 pm-enhanced-fighter-v1-202505311859 300
+./create-spot-instance.sh pm-aws-dr-stack1 pm-amputatoe-v1-202506011805 270
 
 
 # download logs
