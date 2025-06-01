@@ -70,10 +70,10 @@ def reward_function(params):
         reward += 2.0  # Bonus for maximizing speed
 
     # Completion bonuses
-    TARGET_TIME = 9.0  # Target time for lap completion in seconds
+    TARGET_TIME = 10.0  # Target time for lap completion in seconds
     if progress == 100:  # Lap completed
         reward += 30  # Flat completion bonus
-        if time_elapsed <= TARGET_TIME * 0.75:  # Exceptional lap time (under 11.25 seconds)
+        if time_elapsed <= TARGET_TIME * 0.8:  # Exceptional lap time (under 11.25 seconds)
             reward += 70  # Large bonus for very fast laps
         elif time_elapsed <= TARGET_TIME:  # Completed within target time
             reward += 50
